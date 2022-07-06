@@ -1,0 +1,40 @@
+.Desc {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 288px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #262626;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.desc {
+    font-style: normal;
+    z-index: 2;
+}
+
+.number {
+    position: absolute;
+    top: -10%;
+    left: -12%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: rgba(189, 112, 72, 0.2);
+    opacity: .7;
+}
+.show {
+    color: #fff;
+    
+}
+.shownum {
+    color: #8a3c3c;
+}

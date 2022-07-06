@@ -1,0 +1,45 @@
+.AlfaBlock {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    position: relative;
+}
+
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #262626;
+    margin-bottom: 30px;
+}
+
+.cardsGroup {
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 47px;
+}
+
+.DescBlock {
+    display: flex;
+    column-gap: 120px;
+    margin: 40px 0 50px 40px;
+}
+
+.show {
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 500px;
+}
+.form button {
+    cursor: pointer;
+}

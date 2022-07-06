@@ -1,0 +1,49 @@
+.togller {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(137, 137, 137);
+    width: 65px;
+    height: 38px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    cursor: pointer;
+
+}
+
+.togglerspan {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 50%;
+    transition: .3s;
+    z-index: 3;
+}
+
+.conditional {
+    margin-left: 35px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.sol {
+    position: absolute;
+    top: 3%;
+    width: 35px;
+    height: 35px;
+    left: 3%;
+}
+
+.moon {
+    position: absolute;
+    top: 13%;
+    width: 28px;
+    height: 28px;
+    left: 54%;
+  }
